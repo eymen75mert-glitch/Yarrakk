@@ -32,8 +32,8 @@ from aiogram.types import (
 # ═══════════════════════════════════════════════════════════
 #  YAPILANDIRMA
 # ═══════════════════════════════════════════════════════════
-BOT_TOKEN     = os.getenv("BOT_TOKEN",      "8355587538:AAGqYC2IAQ3-7idSI4SRjgicUGGZ917Ud2k")
-ADMIN_IDS     = [int(x) for x in os.getenv("ADMIN_IDS", "7672180974").split(",") if x.strip()]
+BOT_TOKEN     = os.getenv("BOT_TOKEN",      "8568985653:AAHnUDtH8KZrQCpRTXY0k-c6y_OjizLymW8")
+ADMIN_IDS     = [int(x) for x in os.getenv("ADMIN_IDS", "8601984178").split(",") if x.strip()]
 DB_PATH       = os.getenv("DB_PATH",        "escrow.db")
 FEE_PERCENT   = float(os.getenv("FEE_PERCENT",    "4.0"))
 PAYMENT_HOURS = int(os.getenv("PAYMENT_HOURS",    "24"))
