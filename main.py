@@ -1995,7 +1995,7 @@ if __name__ == "__main__":
     print("║  TRON_API_KEY (opsiyonel)                ║")
     print("║  ADMIN_APPROVE_HOURS — varsayılan: 72    ║")
     print("╚══════════════════════════════════════════╝")
-    asyncio.run(main(    )
+    asyncio.run(main())
 
 # ═══════════════════════════════════════════
 #  /tadd @kullanici [serbest bilgi]
